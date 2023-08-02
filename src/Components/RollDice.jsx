@@ -6,7 +6,7 @@ function RollDice({diceNo,rollDice}) {
     
     <Dice>
         <div className="dice" onClick={rollDice}>
-            <img src={`src/Images/dice_${diceNo}.png`} alt="dice_1" />
+            <img src={`./public/Images/dice_${diceNo}.png`} alt="dice_1" />
         </div>
         <p>
             Click on Dice to roll
