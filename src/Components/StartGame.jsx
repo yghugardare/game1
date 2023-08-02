@@ -9,10 +9,10 @@ function StartGame({gameOn,setGameOn}) {
   return (
     <Container>
     <div className="image">
-        <img src="./public/Images/dices.png" alt="dices" />
+        <img src="https://media.istockphoto.com/id/1336400835/vector/cartoon-dice-vector-illustration-on-white-background.jpg?s=612x612&w=0&k=20&c=MfAZZeS5B6eU25J-72mG8Ar-BDAZJgeIPV2jXBr-zjI=" alt="dices" />
     </div>
     <div className="text">
-        <h1>DICE GAME12</h1>
+        <h1>DICE GAME</h1>
         <Button onClick={handleClick}>Start Game</Button>
     </div>
 
@@ -29,6 +29,7 @@ const Container = styled.div`
   align-items: center;
   h1{
     font-size:64px;
+    white-space: nowrap;
   }
   .text{
     align-self: center;
